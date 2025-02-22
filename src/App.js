@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react"; 
+import React, { useState, useEffect } from "react";  
 import Sidebar from "./components/Sidebar";
 import WebsiteList from "./components/WebsiteList";
+import AddWebsite from "./components/AddWebsite"; // ✅ Import AddWebsite
 import websitesData from "./data/websites.json";
 import { FaMoon, FaSun } from "react-icons/fa";
 
@@ -34,6 +35,11 @@ const App = () => {
     }
   };
 
+  // Handle Adding a New Website
+  const handleAddWebsite = (newWebsite) => {
+    setFilteredWebsites((prevWebsites) => [...prevWebsites, newWebsite]);
+  };
+
   return (
     <div className={`app ${darkMode ? "dark-mode" : ""}`}>
       {/* Sidebar */}
@@ -50,6 +56,9 @@ const App = () => {
           </button>
         </div>
 
+        {/* Add Website Form */}
+        <AddWebsite addWebsite={handleAddWebsite} />
+
         {/* Search Bar */}
         <div className="search-container">
           <input
@@ -62,20 +71,7 @@ const App = () => {
         </div>
 
         {/* Display Websites */}
-        <div className="website-grid">
-          {filteredWebsites.map((site, index) => (
-            <a
-              key={index}
-              href={site.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="website-card"
-            >
-              <img src={site.logo} alt={site.name} className="website-logo" />
-              <span className="website-name">{site.name}</span>
-            </a>
-          ))}
-        </div>
+        <WebsiteList websites={filteredWebsites} />
       </div>
     </div>
   );
