@@ -1,0 +1,62 @@
+{
+  "Design": [
+    { "name": "Figma", "url": "https://www.figma.com/" },
+    { "name": "Canva", "url": "https://www.canva.com/" },
+    { "name": "Adobe XD", "url": "https://www.adobe.com/products/xd.html" },
+    { "name": "Sketch", "url": "https://www.sketch.com/" },
+    { "name": "Dribbble", "url": "https://dribbble.com/" },
+    { "name": "Behance", "url": "https://www.behance.net/" },
+    { "name": "Coolors", "url": "https://coolors.co/" },
+    { "name": "Font Awesome", "url": "https://fontawesome.com/" },
+    { "name": "UI8", "url": "https://ui8.net/" },
+    { "name": "Freepik", "url": "https://www.freepik.com/" },
+    { "name": "Icons8", "url": "https://icons8.com/" }
+  ],
+  "AI Bots": [
+    { "name": "ChatGPT", "url": "https://chat.openai.com/" },
+    { "name": "Google Bard", "url": "https://bard.google.com/" },
+    { "name": "Claude AI", "url": "https://www.anthropic.com/" },
+    { "name": "Perplexity AI", "url": "https://www.perplexity.ai/" },
+    { "name": "Jasper AI", "url": "https://www.jasper.ai/" },
+    { "name": "Writesonic", "url": "https://writesonic.com/" },
+    { "name": "Midjourney", "url": "https://www.midjourney.com/" },
+    { "name": "DeepL", "url": "https://www.deepl.com/" },
+    { "name": "DALL·E", "url": "https://openai.com/dall-e" },
+    { "name": "RunwayML", "url": "https://runwayml.com/" }
+  ],
+  "Development Tools": [
+    { "name": "GitHub", "url": "https://github.com/" },
+    { "name": "CodePen", "url": "https://codepen.io/" },
+    { "name": "Stack Overflow", "url": "https://stackoverflow.com/" }
+  ],
+  "Online Learning": [
+    { "name": "Coursera", "url": "https://www.coursera.org/" },
+    { "name": "Udemy", "url": "https://www.udemy.com/" },
+    { "name": "edX", "url": "https://www.edx.org/" }
+  ],
+  "Coding Platforms": [
+    { "name": "LeetCode", "url": "https://leetcode.com/" },
+    { "name": "HackerRank", "url": "https://www.hackerrank.com/" },
+    { "name": "CodeChef", "url": "https://www.codechef.com/" },
+    { "name": "GeeksforGeeks", "url": "https://www.geeksforgeeks.org/" },
+    { "name": "Codeforces", "url": "https://codeforces.com/" },
+    { "name": "TopCoder", "url": "https://www.topcoder.com/" },
+    { "name": "AtCoder", "url": "https://atcoder.jp/" },
+    { "name": "Spoj", "url": "https://www.spoj.com/" },
+    { "name": "CS50", "url": "https://cs50.harvard.edu/" },
+    { "name": "Project Euler", "url": "https://projecteuler.net/" }
+  ],
+  "Productivity": [
+    { "name": "Notion", "url": "https://www.notion.so/" },
+    { "name": "Trello", "url": "https://trello.com/" },
+    { "name": "Asana", "url": "https://asana.com/" },
+    { "name": "ClickUp", "url": "https://clickup.com/" },
+    { "name": "Evernote", "url": "https://evernote.com/" },
+    { "name": "Google Keep", "url": "https://keep.google.com/" },
+    { "name": "Microsoft OneNote", "url": "https://www.onenote.com/" },
+    { "name": "Todoist", "url": "https://todoist.com/" },
+    { "name": "Monday.com", "url": "https://monday.com/" },
+    { "name": "Slack", "url": "https://slack.com/" },
+    { "name": "RescueTime", "url": "https://www.rescuetime.com/" }
+  ]
+}
