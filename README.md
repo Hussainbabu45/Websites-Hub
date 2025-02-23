@@ -1,4 +1,4 @@
-# YogaApp IntraSphere Websites 🌐
+# IntraSphere *WEBSITES DIRECTORY* 🌐
 
 Welcome to **YogaApp IntraSphere Websites**, a web application that provides a categorized collection of useful websites. Users can browse, search, and add websites to different categories.
 
